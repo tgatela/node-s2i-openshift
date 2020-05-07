@@ -52,12 +52,12 @@ app.get('/info', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
     patientdata = {
       "personal": {
-        "name": "Ralph DAlmeida",
+        "name": "Tata Gatela",
         "age": 38,
         "gender": "male",
-        "street": "34 Main Street",
-        "city": "Toronto",
-        "zipcode": "M5H 1T1"
+        "street": "123 Main Street",
+        "city": "Phoenix",
+        "zipcode": "85023"
       },
       "medications": ["Metoprolol", "ACE inhibitors", "Vitamin D"],
       "appointments": ["2018-01-15 1:00 - Dentist", "2018-02-14 4:00 - Internal Medicine", "2018-09-30 8:00 - Pediatry"]
